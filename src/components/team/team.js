@@ -27,33 +27,33 @@ class Team extends React.Component {
             teams: [
                 {
                     image: "https://cryptoileths.s3.amazonaws.com/1000.png",
-                    title: 'Lorem Ipsum',
-                    name: "Lorem IpsumLorem Ipsum"
+                    title: 'Manure Farmer',
+                    name: "Winnie the Poop"
                 },
                 {
                     image: "https://cryptoileths.s3.amazonaws.com/1001.png",
-                    title: 'Lorem Ipsum',
-                    name: "Lorem IpsumLorem Ipsum"
+                    title: 'One Shit Wonder',
+                    name: "Adolf Shitler"
                 },
                 {
                     image: "https://cryptoileths.s3.amazonaws.com/1002.png",
-                    title: 'Lorem Ipsum',
-                    name: "Lorem IpsumLorem Ipsum"
+                    title: 'The Flush Expert',
+                    name: "Barry Allen"
                 },
                 {
                     image: "https://cryptoileths.s3.amazonaws.com/1003.png",
-                    title: 'Lorem Ipsum',
-                    name: "Lorem IpsumLorem Ipsum"
+                    title: 'The Plumber',
+                    name: "Mario"
                 },
                 {
                     image: "https://cryptoileths.s3.amazonaws.com/1004.png",
-                    title: 'Lorem Ipsum',
-                    name: "Lorem IpsumLorem Ipsum"
+                    title: 'Number 2',
+                    name: "Poop John Paul"
                 },
                 {
                     image: "https://cryptoileths.s3.amazonaws.com/1005.png",
-                    title: 'Lorem Ipsum',
-                    name: "Lorem IpsumLorem Ipsum"
+                    title: 'Janitor Extraordinaire',
+                    name: "Wash the Throne"
                 },
                 {
                     image: "https://cryptoileths.s3.amazonaws.com/1006.png",
@@ -94,6 +94,20 @@ class Team extends React.Component {
                     <Row>
                         <Col className="team-control-card" md={4} xs={12} >
                             <TeamMember
+                                imageUrl={this.state.teams[0].image}
+                                title={this.state.teams[0].title}
+                                name={this.state.teams[0].name}
+                            />
+                        </Col>
+                        <Col className="team-control-card" md={4} xs={12} >
+                            <TeamMember
+                                imageUrl={this.state.teams[1].image}
+                                title={this.state.teams[1].title}
+                                name={this.state.teams[1].name}
+                            />
+                        </Col>
+                        <Col className="" md={4} xs={12} >
+                            <TeamMember
                                 imageUrl={this.state.teams[2].image}
                                 title={this.state.teams[2].title}
                                 name={this.state.teams[2].name}
@@ -106,7 +120,7 @@ class Team extends React.Component {
                                 name={this.state.teams[3].name}
                             />
                         </Col>
-                        <Col className="" md={4} xs={12} >
+                        <Col className="team-control-card" md={4} xs={12} >
                             <TeamMember
                                 imageUrl={this.state.teams[4].image}
                                 title={this.state.teams[4].title}
@@ -118,20 +132,6 @@ class Team extends React.Component {
                                 imageUrl={this.state.teams[5].image}
                                 title={this.state.teams[5].title}
                                 name={this.state.teams[5].name}
-                            />
-                        </Col>
-                        <Col className="team-control-card" md={4} xs={12} >
-                            <TeamMember
-                                imageUrl={this.state.teams[6].image}
-                                title={this.state.teams[6].title}
-                                name={this.state.teams[6].name}
-                            />
-                        </Col>
-                        <Col className="team-control-card" md={4} xs={12} >
-                            <TeamMember
-                                imageUrl={this.state.teams[7].image}
-                                title={this.state.teams[7].title}
-                                name={this.state.teams[7].name}
                             />
                         </Col>
                     </Row>

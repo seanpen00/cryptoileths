@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cryptoileths/static/css/main.a09ca47b.chunk.css",
-    "main.js": "/cryptoileths/static/js/main.5c3cfe62.chunk.js",
-    "main.js.map": "/cryptoileths/static/js/main.5c3cfe62.chunk.js.map",
+    "main.js": "/cryptoileths/static/js/main.61200af0.chunk.js",
+    "main.js.map": "/cryptoileths/static/js/main.61200af0.chunk.js.map",
     "runtime-main.js": "/cryptoileths/static/js/runtime-main.14c69a2d.js",
     "runtime-main.js.map": "/cryptoileths/static/js/runtime-main.14c69a2d.js.map",
     "static/css/2.71f93bf9.chunk.css": "/cryptoileths/static/css/2.71f93bf9.chunk.css",
@@ -59,6 +59,6 @@
     "static/css/2.71f93bf9.chunk.css",
     "static/js/2.15ce22d2.chunk.js",
     "static/css/main.a09ca47b.chunk.css",
-    "static/js/main.5c3cfe62.chunk.js"
+    "static/js/main.61200af0.chunk.js"
   ]
 }

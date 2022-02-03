@@ -17,23 +17,23 @@ class RoadMap extends React.Component {
       roadmaps: [
         {
           tag: "25%",
-          title: "Project Launch",
-          content: "Initiate Twitter and MEME contests to win additional CrypToilETHs"
+          title: "Initiate Twitter and MEME Contests to Win Additional CrypToilETHs",
+          content: "Twitter and MEME contests will begin, allowing community members to win additional CrypToilETHs."
         },
         {
           tag: "50%",
-          title: "First set of community votes",
-          content: "CrypToilETHs will start revealing."
+          title: "CrypToilETHs Will Start Revealing",
+          content: "The CrypToilETHs will officially start revealing! Refresh your NFTs on OpenSea to view your revealed CrypToilETHs."
         },
         {
           tag: "75%",
-          title: "Team Building & Partnerships ",
-          content: "CrypToilETHs will start revealing."
+          title: "Listing on Rarity Sites (rarity.tools, raritysniper, etc.)",
+          content: "CrypToilETHs will officially be listed on rarity tracking websites, allowing users to see how rare and valuable their NFTs are."
         },
         {
           tag: "100%",
-          title: "Tokenomics & Fractionalizing Art ",
-          content: "Chance to win 1 ETH and 200 free CrypToilETHs. Start development of utility token $HET and release of roadmap 2.0"}
+          title: "Chance to Win 1 ETH and 200 Free CrypToilETHs",
+          content: "Members of our community will have the chance to win 1 ETH and 200 FREE CrypToilETHs!"}
       ],
     };
   }
